@@ -1,0 +1,248 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+body {
+  
+    margin: 0 ;
+}
+
+
+
+
+
+
+
+.box {
+    box-sizing: border-box;
+    height: 33vh;
+     width: 33.1vh;
+    border-style: groove;
+     border-width: 2px;
+     border-color: white;
+     font-size: 20vh;
+     background-color: black;  
+     text-align: center
+}
+
+#container {
+  background-color: white;
+    width:  100vh ;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+
+
+
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  background-color: black;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 8rem;
+  top: 5rem;
+  z-index: 10;
+  background-color: black;
+
+  
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;
+
+ 
+  
+}
+
+ 
+
+
+
+
+
+
+
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  background-color: black;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+
+#lala {
+
+  background-color:white;
+  background-image: url(nextacademy3.jpg);
+  background-size: 100%;
+}
+#sup {
+background-image: url(nextacademy3.jpg);
+height: 147vh;
+
+
+}
+
+#thxeda2 {
+
+background-image: url(nextacademy4.jpg);
+
+}
+
+#sup4 {
+
+  color:whitesmoke
+}
+
+
+
+
+
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  margin-left: 30%;
+  text-align: center;
+  block-size: 25rem;
+background-color: black;
+}
+.marketing h2 {
+  font-weight: 400;
+  background-color: black;
+
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  background-color: black;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.col-md-7-8 {
+
+  margin-left: 5%;
+  margin-bottom: 5%;
+  
+
+background: yellow;
+
+}
+.featurette-divider {
+
+  
+  margin: 5rem 0;
+  
+  background-color:grey; /* Space out the Bootstrap <hr> more */
+}
+
+/* .guessgame1 {
+
+
+  padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 70px;
+} */
+
+
+/* Thin out the marketing headings */
+.eda3 {
+ text-align: center;
+ width: 100%;
+ color: white;
+
+
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  -ms-flow-into: inherit;
+color: white;  
+
+  
+}
+#sup2 {
+color: white;
+
+}
+
+#xx{
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.eda1 {
+display: inline-block;
+width: 300vh;
+height: 20vh;
+margin: 1em;
+text-align: center;
+
+}
+
+img.social-icon{
+
+  width: 50px;
+  height: 50px;
+  margin: 1%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: grey;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+    color:white;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+
+    
+
+    
+  }
+}
